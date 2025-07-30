@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ethan Aragon</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: red;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+    .warning {
+      font-size: 2rem;
+      animation: blink 1s step-start infinite;
+    }
+    .subtext {
+      color: white;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="warning">⚠️ VIRUS INSTALLED </div>
+  <div class="subtext">
+    Your phone has been compromised. All your accounts, passwords, photos, contacts, and text messages have been downloaded.<br><br>
+    <strong>Your data is ours.</strong><br>
+    Data wipe complete... 🔥🔥🔥
+  </div>
+  <audio autoplay loop>
+    <source src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg" type="audio/ogg">
+  </audio>
+</body>
+</html>
